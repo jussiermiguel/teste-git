@@ -1,0 +1,17 @@
+	#inicio
+
+	#alterar e salvar
+git status
+git add .
+git commit -m "mensagem o que alterou"
+git push
+
+	#ver as alterações que foram feitas
+git reflog
+
+	#como navegar entre as versões do codigo
+git reflog > ver as versões e alterações
+		pegar o código (ex: 4df36ba)
+git reset --hard 4df36ba
+
+	#o que são branches(galho)
