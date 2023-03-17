@@ -15,3 +15,8 @@ git reflog > ver as versões e alterações
 git reset --hard 4df36ba
 
 	#o que são branches(galho)
+
+	#como ver em qual branch está
+git branch
+	#como mudar de branch (trabalhar em uma paralela)
+	
