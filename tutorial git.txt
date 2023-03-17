@@ -60,5 +60,23 @@ git checkout master
 git pull
 git merge sistema-de-login
 git push
+git push --set-upstream origin sistema-de-login
 
 	#pull request um merge democratico
+
+abrir site github e ver a ultima atualização na branch nova
+clicar em compare & pull requeste
+selecionar a branch  que deseja comparar (master)
+digitar mensagem informando o que alterou no código e esperar aprovação
+ver se teve algum Reviews e ver os comentários para aprovar
+se tiver tudo ok e aprovado "Merge pull request" (pela pessoa que tem que aprovar)
+verificar se o icone ficou roxo (quer dizer que já foi mergiado ou enviado para a branch master)
+
+	#algum arquivo que nao quer enviar (git ignore)
+git status
+touch .gitignore (arquivo para informas as pastas ou arquivos que não quer enviar. abrir ele como bloco de notas e digitar o nome com extensão (text.txt/img.png)
+git status
+git add .
+git status
+git commit -m "arquivo gitignore"
+git push
