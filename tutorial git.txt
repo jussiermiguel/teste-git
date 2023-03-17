@@ -51,3 +51,14 @@ git merge staging
 git branch > ver se está na branch master
 git pull > pegar os códigos mais atuais
 git checkout -b sistemas-de-login master > -b > criar nova branch > sistemas-de-login (nome da nova branch) > master (nova branch foi criada a partir dessa branch)
+git branch > ver se está na nova branch (sistema-de-login)
+	salvar arquivo
+git add .
+git status > ver os novos arquivos
+git commit -m "criado sistema de login"
+git checkout master
+git pull
+git merge sistema-de-login
+git push
+
+	#pull request um merge democratico
