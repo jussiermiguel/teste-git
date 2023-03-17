@@ -18,5 +18,36 @@ git reset --hard 4df36ba
 
 	#como ver em qual branch está
 git branch
-	#como mudar de branch (trabalhar em uma paralela)
-	
+	#como criar e mudar de branch (trabalhar em uma paralela)
+git branch staging <(staging nome da branch)
+git branch <mostra todas as branchs
+git checkout staging < trocou para a staging
+git status
+git add .
+git status
+git commit -m "mensagem"
+git push
+git push --set-upstream origin staging
+
+	#como unir o código de uma branch nova com o código da branch principal(master)
+	1git pull da branch principal
+	2gerar uma nova branch a partir da branch principal
+	3trabalhar e adicionar novas funcionalidades na nova branch que criou
+	4finalizar o trabalho na branch temporária
+	5git checkout na branch principal
+	6git pull
+	7mergiar(unir) o código da branch temporária com a branch principal(depois de testar)
+	8git push da branch principal
+
+git branch (ver em qual branch está)
+git checkout master (sair da staging e ir para a master)
+git branch (ver se está na branch master)
+git merge staging (preparar arquivos da branch staging para enviar para a branch master)
+git push
+git pull (pegar arquivos da branch)
+git merge staging
+
+	#criar nova branch a partir de outra(master)
+git branch > ver se está na branch master
+git pull > pegar os códigos mais atuais
+git checkout -b sistemas-de-login master > -b > criar nova branch > sistemas-de-login (nome da nova branch) > master (nova branch foi criada a partir dessa branch)
